@@ -1,0 +1,32 @@
+{
+  "name": "xskttest",
+  "version": "1.0.0",
+  "description": "soket chat",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xrustofor/xskttest.git"
+  },
+  "keywords": [
+    "soket",
+    "chat"
+  ],
+  "author": "Xrustofor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xrustofor/xskttest/issues"
+  },
+  "homepage": "https://github.com/Xrustofor/xskttest#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1",
+    "uuid": "^8.3.2"
+  },
+  "readmeFilename": "README.md"
+}
